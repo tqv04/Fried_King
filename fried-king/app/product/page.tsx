@@ -2,36 +2,55 @@
 import { useRouter } from "next/navigation";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
+import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
+import { useState, useEffect } from "react";
+interface Product {
+  id: string;
+  category: string;
+  name: string;
+  imageUrl: string;
+  price: number;
+  rating: number;
+  time: string;
+}
 export default function Product() {
-  const router = useRouter();
+  const [product, setProduct] = useState<Product[]>([]);
+
+  useEffect(() => {
+    async function fetchProduct() {
+      const res = await fetch("http://localhost:9000/pizza");
+      const data = await res.json();
+      setProduct(data);
+    }
+    fetchProduct();
+  }, []);
+
+  if (!product) return <div>Loading...</div>;
   return (
     <>
-      <Row xs={1} md={2} className="g-4">
-        {Array.from({ length: 4 }).map((_, idx) => (
-          <Col key={idx}>
-            <Card>
+      <Container>
+        <Row>
+          {product.map((item) => (
+            <Card style={{ width: "18rem" }} key={item.id}>
               <Card.Img
                 variant="top"
                 src="/garan ver1.0.jpg"
-                style={{ width: "200px", height: "200px" }}
+                style={{ width: "50px", height: "50px", display: "block" }}
               />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </Card.Text>
-                <button type="button" onClick={() => router.push("/")}>
-                  Quay lai
-                </button>
+                <Image src={item.imageUrl} alt="Banner"></Image>
+                <Card.Title>{item.name}</Card.Title>
+
+                <Card.Text>{item.price}</Card.Text>
+                <Button variant="primary">Go somewhere</Button>
               </Card.Body>
             </Card>
-          </Col>
-        ))}
-      </Row>
-      ;
+          ))}
+        </Row>
+      </Container>
     </>
   );
 }

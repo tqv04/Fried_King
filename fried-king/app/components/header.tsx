@@ -1,4 +1,5 @@
 "use client";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
@@ -12,7 +13,23 @@ import {
   faShoppingBag,
 } from "@fortawesome/free-solid-svg-icons";
 
+interface Category {
+  id: string;
+  name: string;
+}
 export default function Header() {
+  const [menu, setMenu] = useState<Category[]>([]);
+
+  useEffect(() => {
+    async function fetchMenu() {
+      const res = await fetch("http://localhost:9000/category");
+      const data = await res.json();
+      setMenu(data);
+    }
+    fetchMenu();
+  }, []);
+
+  if (!menu) return <div>Loading...</div>;
   return (
     <>
       <Container className="bg-light ">
@@ -73,15 +90,18 @@ export default function Header() {
                 GIỚI THIỆU
               </Link>
             </Nav.Link>
-            <Nav.Link as="div">
-              <Link
-                href="/product"
-                className=" px-3"
-                style={{ color: "#252a2b", textDecoration: "none" }}
-              >
-                MENU
-              </Link>
-            </Nav.Link>
+            <NavDropdown title="MENU" id="basic-nav-dropdown">
+              {menu.map((item) => (
+                <NavDropdown.Item key={item.id}>
+                  <Link
+                    href="/product"
+                    style={{ textDecoration: "none", color: "black" }}
+                  >
+                    {item.name}
+                  </Link>
+                </NavDropdown.Item>
+              ))}
+            </NavDropdown>
             <Nav.Link as="div">
               <Link
                 href="/promotions"
