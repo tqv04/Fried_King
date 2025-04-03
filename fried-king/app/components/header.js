@@ -15,21 +15,18 @@ import {
 export default function Header() {
   return (
     <>
-      <Container className="bg-light ">
-        <Row className="justify-content-end align-items-center">
-          <Col xs="auto">
-            <FontAwesomeIcon
-              icon={faPhone}
-              className="text-dark me-2"
-              style={{ fontSize: "12px" }}
-            />
-            <span className="text-danger fw-bold" style={{ fontSize: "12px" }}>
-              Hotline: 19009480
-            </span>
-          </Col>
-        </Row>
-      </Container>
-
+      <Row className="justify-content-end  align-items-center bg-light" >
+        <Col xs="auto" >
+          <FontAwesomeIcon
+            icon={faPhone}
+            className="text-dark me-2"
+            style={{ fontSize: "12px" }}
+          />
+          <span className="text-danger fw-bold " style={{ fontSize: "12px" , paddingRight: "50px" }}>
+            Hotline: 19009480
+          </span>
+        </Col>
+      </Row>
       <Container>
         <Row className="align-items-center">
           <Col xs={4}></Col>
