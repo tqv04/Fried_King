@@ -1,18 +1,27 @@
 "use client";
 import { useState, useEffect } from "react";
+import React from "react";
 import Link from "next/link";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Container, Button } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Form from "react-bootstrap/Form";
+import {
+  faPhone,
+  faSearch,
+  faUser,
+  faShoppingBag,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
   faTwitter,
   faInstagram,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
-import "./footer.css";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 interface Category {
   id: string;
   name: string;
@@ -32,8 +41,55 @@ const Footer = () => {
   if (!menu) return <div>Loading...</div>;
   return (
     <>
+      <Container fluid className="d-flex p-3 ">
+        <Col xs={3} className="d-flex align-items-center">
+          <FontAwesomeIcon
+            icon={faEnvelope}
+            className="text-dark me-2"
+            style={{ fontSize: "20px" }}
+          />
+          <h1 style={{ fontSize: "18px", margin: "0" }}> Đăng kí nhận tin</h1>
+        </Col>
+        <Col xs={5} className=" d-flex align-items-center">
+          <Form.Control
+            placeholder="Nhập email của bạn"
+            aria-label="Nhập email của bạn"
+            aria-describedby="basic-addon2"
+            className="no-focus-style"
+          />
+          <Button
+            style={{
+              width: "108px",
+              height: "40px",
+              borderRadius: "0",
+              fontSize: "13px",
+              backgroundColor: "#e00000",
+              border: "none",
+            }}
+          >
+            ĐĂNG KÍ
+          </Button>
+        </Col>
+        <Col xs={4} className="d-flex align-items-center ms-3">
+          <FontAwesomeIcon
+            icon={faPhone}
+            className="text-dark me-2"
+            style={{ fontSize: "16px" }}
+          />
+          <span style={{ fontSize: "16px", margin: "0", color: "#252a2b" }}>
+            Đặt hàng/ Hỗ trợ:
+          </span>
+          <Link
+            href="/contact"
+            style={{ color: "red", textDecoration: "none" }}
+            className="ms-1"
+          >
+            19009480
+          </Link>
+        </Col>
+      </Container>
       <Container fluid className="bg-dark p-5 ">
-        <Container className="d-flex text-white box flex-column">
+        <Container className="d-flex text-white  flex-column">
           <Row>
             <Col style={{ width: "20%" }}>
               <h1 style={{ fontSize: "18px" }}>Danh Mục Món Ăn</h1>
