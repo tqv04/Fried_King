@@ -1,0 +1,1025 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Seafood Homemade Pizza",
+      "category": "hot",
+      "price": "191",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2FMqT0asuoIcU.png?alt=media&token=152b4330-5370-41af-ac7a-141345e7bfa9",
+      "time": "50-60min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ],
+      "status": false,
+      "count": 1
+    },
+    {
+      "id": "2",
+      "category": "Pizza",
+      "name": "Bacon Homemade Pizza",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2F33GPuoFI7v8.png?alt=media&token=10a831d8-37a3-42dc-afb1-183ed9cae0ac",
+      "price": 15.5,
+      "rating": 4.7,
+      "time": "50-60min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ],
+      "status": false,
+      "count": 1
+    },
+    {
+      "id": "3",
+      "category": "Pizza",
+      "name": "Chicken Homemade Pizza",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2F60nzTP7_hMQ.png?alt=media&token=7973c8fa-68a7-45d2-a207-96372028ee49",
+      "price": 16.5,
+      "rating": 4.6,
+      "time": "40-60min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "4",
+      "category": "Pizza",
+      "name": "Homemade Veggie Pizza",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2FCbNAuxSZTFo.png?alt=media&token=64e9906a-ad88-442a-b956-27dd9e4f1033",
+      "price": 21,
+      "rating": 4.4,
+      "time": "60-80min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "5",
+      "category": "Pizza",
+      "name": "Pepperoni Pizza Homemade",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2FUxRhrU8fPHQ.png?alt=media&token=ae01ff2f-111a-4337-b165-03f935638026",
+      "price": 17,
+      "rating": 4.8,
+      "time": "50-70min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "6",
+      "category": "Pizza",
+      "name": "BBQ Chicken Pizza Homemade",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2Fsejqj6Eaqe8.png?alt=media&token=dc1f8e27-afef-4666-8468-a1e18b4c79da",
+      "price": 22.5,
+      "rating": 4.7,
+      "time": "50-70min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "7",
+      "category": "Pizza",
+      "name": "Buffalo Pizza Homemade",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2FY6OgisiGBjM.png?alt=media&token=783da719-c58f-4798-b705-6c4a6d4a95e1",
+      "price": 20,
+      "rating": 4.5,
+      "time": "50-65min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "8",
+      "category": "Pizza",
+      "name": "Hawaiian Pizza Homemade",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2FnP11TkjxJ7s.png?alt=media&token=f05f40f6-98ef-4bdf-ad04-70eeae6c4ee2",
+      "price": 19,
+      "rating": 4.5,
+      "time": "60-65min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "9",
+      "category": "hot",
+      "name": "Pepperoni Pizza Chicken Burger",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-12_cb08b6105cc04389ad87d5bbbf755f7c_grande.jpg",
+      "price": 19,
+      "rating": 4.5,
+      "time": "50-70min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "10",
+      "category": "hot",
+      "name": "Deluxe Double Cheeseburger w/Fries",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-13_de65781e2c5c426f8798253244df8586_grande.jpg",
+      "price": 15.5,
+      "rating": 4.7,
+      "time": "50-60min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "11",
+      "category": "hot",
+      "name": "Buttermilk Fried Chicken Burgers",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-14_d713f18b880941fd9001f1aea97bb1bf_grande.jpg",
+      "price": 16.5,
+      "rating": 4.6,
+      "time": "40-60min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "12",
+      "category": "hot",
+      "name": "Pizza Chicken Burgers",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-17_77d020f848134547b53204757e007b88_grande.jpg",
+      "price": 21,
+      "rating": 4.4,
+      "time": "60-80min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "13",
+      "category": "hot",
+      "name": "Fried Chicken Sandwich",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-19_f7f369bb6fa24d0baf6dd00913b5fcf7_grande.jpg",
+      "price": 17,
+      "rating": 4.8,
+      "time": "50-70min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "14",
+      "category": "hot",
+      "name": "Fried Chicken",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-19_f7f369bb6fa24d0baf6dd00913b5fcf7_grande.jpg",
+      "price": 22.5,
+      "rating": 4.7,
+      "time": "50-70min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "15",
+      "category": "hot",
+      "name": " Fried Chicken Spicy",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-18_3a7ce6a0fcb642c39e1c0f4364402c70_grande.jpg",
+      "price": 20,
+      "rating": 4.5,
+      "time": "50-65min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "16",
+      "category": "hot",
+      "name": " Fried Chicken Spicy",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-21_fdccd3aefe96436d81aff558c0d22592_grande.jpg",
+      "price": 20,
+      "rating": 4.5,
+      "time": "50-65min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "17",
+      "category": "related",
+      "name": "Gà Viên Xốt Phô Mai",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-30_45c8be7d4b0c4385be5818c9bd49efe2_grande.jpg",
+      "price": 49,
+      "rating": 4.5,
+      "time": "50-70min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "18",
+      "category": "related",
+      "name": "Mỳ Ý Xốt Bò Bằm",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-31_fe1363dc440148ba8b2a0db17d9482db_grande.jpg",
+      "price": 39,
+      "rating": 4.7,
+      "time": "50-60min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "19",
+      "category": "related",
+      "name": "Sụn Gà Lắc",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-33_ce0d45e27ad9467ea2f7a7a45bf28643_grande.jpg",
+      "price": 39,
+      "rating": 4.6,
+      "time": "40-60min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "20",
+      "category": "related",
+      "name": "Cơm Gạo Nhật",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-34_0b9c09f83c334f47856bec9675e79ea7_grande.jpg",
+      "price": 15,
+      "rating": 4.4,
+      "time": "60-80min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "21",
+      "category": "related",
+      "name": "Canh Kim Chi",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-36_7c45177f31cc41c6b8be9059a4545f6f_grande.jpg",
+      "price": 15,
+      "rating": 4.8,
+      "time": "50-70min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "22",
+      "category": "related",
+      "name": "Canh Gà Rau Củ",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-35_a83ee0802c0c4e429b9c1dd4656b3ae6_grande.jpg",
+      "price": 15,
+      "rating": 4.7,
+      "time": "50-70min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "23",
+      "category": "related",
+      "name": " Set 3 Bánh Gà Rau Củ",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-37_7d27110c936f42308f2533438a14796f_grande.jpg",
+      "price": 39,
+      "rating": 4.5,
+      "time": "50-65min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "24",
+      "category": "related",
+      "name": "Hải Sản Chiên Xù",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-39_e2bfd127833c4ea88515e612c9cc65ba_grande.jpg",
+      "price": 49,
+      "rating": 4.5,
+      "time": "50-65min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    },
+    {
+      "id": "25",
+      "category": "related",
+      "name": "Hải Sản Chiên Xù",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-39_e2bfd127833c4ea88515e612c9cc65ba_grande.jpg",
+      "price": 49,
+      "rating": 4.5,
+      "time": "50-65min",
+      "description": [
+        "Set 3 bánh gà rau củ ",
+        "Sốt Tartar chua ngọt/ Sốt phô mai thơm béo (chọn 1 trong 2)"
+      ],
+      "taste": [
+        "Sốt Phô mai",
+        "Sốt Tartar"
+      ]
+    }
+  ],
+  "menu": [
+    {
+      "id": "1",
+      "name": "Home"
+    },
+    {
+      "id": "2",
+      "name": "About"
+    },
+    {
+      "id": "3",
+      "name": "Menu"
+    },
+    {
+      "id": "4",
+      "name": "Blog"
+    },
+    {
+      "id": "5",
+      "name": "Contacts"
+    }
+  ],
+  "pizza": [
+    {
+      "id": "1",
+      "category": "Pizza",
+      "name": "Seafood Homemade Pizza",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2FMqT0asuoIcU.png?alt=media&token=152b4330-5370-41af-ac7a-141345e7bfa9",
+      "price": 19,
+      "rating": 4.5,
+      "time": "50-70min"
+    },
+    {
+      "id": "2",
+      "category": "Pizza",
+      "name": "Bacon Homemade Pizza",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2F33GPuoFI7v8.png?alt=media&token=10a831d8-37a3-42dc-afb1-183ed9cae0ac",
+      "price": 15.5,
+      "rating": 4.7,
+      "time": "50-60min"
+    },
+    {
+      "id": "3",
+      "category": "Pizza",
+      "name": "Chicken Homemade Pizza",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2F60nzTP7_hMQ.png?alt=media&token=7973c8fa-68a7-45d2-a207-96372028ee49",
+      "price": 16.5,
+      "rating": 4.6,
+      "time": "40-60min"
+    },
+    {
+      "id": "4",
+      "category": "Pizza",
+      "name": "Homemade Veggie Pizza",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2FCbNAuxSZTFo.png?alt=media&token=64e9906a-ad88-442a-b956-27dd9e4f1033",
+      "price": 21,
+      "rating": 4.4,
+      "time": "60-80min"
+    },
+    {
+      "id": "5",
+      "category": "Pizza",
+      "name": "Pepperoni Pizza Homemade",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2FUxRhrU8fPHQ.png?alt=media&token=ae01ff2f-111a-4337-b165-03f935638026",
+      "price": 17,
+      "rating": 4.8,
+      "time": "50-70min"
+    },
+    {
+      "id": "6",
+      "category": "Pizza",
+      "name": "BBQ Chicken Pizza Homemade",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2Fsejqj6Eaqe8.png?alt=media&token=dc1f8e27-afef-4666-8468-a1e18b4c79da",
+      "price": 22.5,
+      "rating": 4.7,
+      "time": "50-70min"
+    },
+    {
+      "id": "7",
+      "category": "Pizza",
+      "name": "Buffalo Pizza Homemade",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2FY6OgisiGBjM.png?alt=media&token=783da719-c58f-4798-b705-6c4a6d4a95e1",
+      "price": 20,
+      "rating": 4.5,
+      "time": "50-65min"
+    },
+    {
+      "id": "8",
+      "category": "Pizza",
+      "name": "Hawaiian Pizza Homemade",
+      "imageUrl": "https://firebasestorage.googleapis.com/v0/b/image-3b5d8.appspot.com/o/food-ordering%2Fpizza%2FnP11TkjxJ7s.png?alt=media&token=f05f40f6-98ef-4bdf-ad04-70eeae6c4ee2",
+      "price": 19,
+      "rating": 4.5,
+      "time": "60-65min"
+    }
+  ],
+  "hot": [
+    {
+      "id": "1",
+      "category": "Hamburger",
+      "name": "Pepperoni Pizza Chicken Burger",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-12_cb08b6105cc04389ad87d5bbbf755f7c_grande.jpg",
+      "price": 19,
+      "rating": 4.5,
+      "time": "50-70min"
+    },
+    {
+      "id": "2",
+      "category": "Combo",
+      "name": "Deluxe Double Cheeseburger w/Fries",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-13_de65781e2c5c426f8798253244df8586_grande.jpg",
+      "price": 15.5,
+      "rating": 4.7,
+      "time": "50-60min"
+    },
+    {
+      "id": "3",
+      "category": "Hamburger",
+      "name": "Buttermilk Fried Chicken Burgers",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-14_d713f18b880941fd9001f1aea97bb1bf_grande.jpg",
+      "price": 16.5,
+      "rating": 4.6,
+      "time": "40-60min"
+    },
+    {
+      "id": "4",
+      "category": "Combo",
+      "name": "Pizza Chicken Burgers",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-17_77d020f848134547b53204757e007b88_grande.jpg",
+      "price": 21,
+      "rating": 4.4,
+      "time": "60-80min"
+    },
+    {
+      "id": "5",
+      "category": "Hamburger",
+      "name": "Fried Chicken Sandwich",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-19_f7f369bb6fa24d0baf6dd00913b5fcf7_grande.jpg",
+      "price": 17,
+      "rating": 4.8,
+      "time": "50-70min"
+    },
+    {
+      "id": "6",
+      "category": "Fried Chicken",
+      "name": "Fried Chicken",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-19_f7f369bb6fa24d0baf6dd00913b5fcf7_grande.jpg",
+      "price": 22.5,
+      "rating": 4.7,
+      "time": "50-70min"
+    },
+    {
+      "id": "7",
+      "category": "Fried Chicken",
+      "name": " Fried Chicken Spicy",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-18_3a7ce6a0fcb642c39e1c0f4364402c70_grande.jpg",
+      "price": 20,
+      "rating": 4.5,
+      "time": "50-65min"
+    },
+    {
+      "id": "8",
+      "category": "Fried Chicken",
+      "name": " Fried Chicken Spicy",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-21_fdccd3aefe96436d81aff558c0d22592_grande.jpg",
+      "price": 20,
+      "rating": 4.5,
+      "time": "50-65min"
+    }
+  ],
+  "service": [
+    {
+      "id": "1",
+      "imageUrl": "https://bizweb.dktcdn.net/100/510/571/collections/0002624-seafood-pesto-300.png?v=1709192852903",
+      "tittle": "Pizza",
+      "status": "(17 món ăn)"
+    },
+    {
+      "id": "2",
+      "imageUrl": "https://bizweb.dktcdn.net/100/510/571/collections/0003862-bbq-ribs-platter-300.png?v=1709192861850",
+      "tittle": "Khai vị",
+      "status": "(13 món ăn)"
+    },
+    {
+      "id": "3",
+      "imageUrl": "https://bizweb.dktcdn.net/100/510/571/collections/0002257-spaghetti-shrimp-rose-30.png?v=1709192871587",
+      "tittle": "Mì Ý",
+      "status": "(7 món ăn)"
+    },
+    {
+      "id": "4",
+      "imageUrl": "https://bizweb.dktcdn.net/100/510/571/collections/0002250-signature-salad-300.png?v=1709192880573",
+      "tittle": "Salad",
+      "status": "(7 món ăn)"
+    }
+  ],
+  "accompanyingFood": [
+    {
+      "id": "1",
+      "category": "Fried Chicken",
+      "name": "Gà Viên Xốt Phô Mai",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-30_45c8be7d4b0c4385be5818c9bd49efe2_grande.jpg",
+      "price": 49,
+      "rating": 4.5,
+      "time": "50-70min"
+    },
+    {
+      "id": "2",
+      "category": "Combo",
+      "name": "Mỳ Ý Xốt Bò Bằm",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-31_fe1363dc440148ba8b2a0db17d9482db_grande.jpg",
+      "price": 39,
+      "rating": 4.7,
+      "time": "50-60min"
+    },
+    {
+      "id": "3",
+      "category": "Fried Chicken",
+      "name": "Sụn Gà Lắc",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-33_ce0d45e27ad9467ea2f7a7a45bf28643_grande.jpg",
+      "price": 39,
+      "rating": 4.6,
+      "time": "40-60min"
+    },
+    {
+      "id": "4",
+      "category": "Combo",
+      "name": "Cơm Gạo Nhật",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-34_0b9c09f83c334f47856bec9675e79ea7_grande.jpg",
+      "price": 15,
+      "rating": 4.4,
+      "time": "60-80min"
+    },
+    {
+      "id": "5",
+      "category": "Hamburger",
+      "name": "Canh Kim Chi",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-36_7c45177f31cc41c6b8be9059a4545f6f_grande.jpg",
+      "price": 15,
+      "rating": 4.8,
+      "time": "50-70min"
+    },
+    {
+      "id": "6",
+      "category": "Fried Chicken",
+      "name": "Canh Gà Rau Củ",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-35_a83ee0802c0c4e429b9c1dd4656b3ae6_grande.jpg",
+      "price": 15,
+      "rating": 4.7,
+      "time": "50-70min"
+    },
+    {
+      "id": "7",
+      "category": "Fried Chicken",
+      "name": " Set 3 Bánh Gà Rau Củ",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-37_7d27110c936f42308f2533438a14796f_grande.jpg",
+      "price": 39,
+      "rating": 4.5,
+      "time": "50-65min"
+    },
+    {
+      "id": "8",
+      "category": "Fried Chicken",
+      "name": "Hải Sản Chiên Xù",
+      "imageUrl": "https://product.hstatic.net/1000242782/product/web_480x480px_otoke_menu-39_e2bfd127833c4ea88515e612c9cc65ba_grande.jpg",
+      "price": 49,
+      "rating": 4.5,
+      "time": "50-65min"
+    }
+  ],
+  "category": [
+    {
+      "id": "1",
+      "name": "Pizza",
+      "quanity": 17,
+      "imageUrl": "https://bizweb.dktcdn.net/100/310/257/themes/801944/assets/menu_icon_1.png?1676001091788"
+    },
+    {
+      "id": "2",
+      "name": "Burger",
+      "quanity": 13,
+      "imageUrl": "https://bizweb.dktcdn.net/100/310/257/themes/801944/assets/menu_icon_2.png?1676001091788"
+    },
+    {
+      "id": "3",
+      "name": "Thức Uống",
+      "quanity": 7,
+      "imageUrl": "https://bizweb.dktcdn.net/100/310/257/themes/801944/assets/menu_icon_3.png?1676001091788"
+    },
+    {
+      "id": "4",
+      "name": "Thức Ăn Nhẹ",
+      "quanity": 14,
+      "imageUrl": "https://bizweb.dktcdn.net/100/310/257/themes/801944/assets/menu_icon_4.png?1676001091788"
+    },
+    {
+      "id": "5",
+      "name": "Salad",
+      "quanity": 17,
+      "imageUrl": "https://bizweb.dktcdn.net/100/310/257/themes/801944/assets/menu_icon_5.png?1676001091788"
+    },
+    {
+      "id": "6",
+      "name": "Thức ăn kèm",
+      "quanity": 9,
+      "imageUrl": "https://bizweb.dktcdn.net/100/310/257/themes/801944/assets/menu_icon_6.png?1676001091788"
+    }
+  ],
+  "users": [
+    {
+      "id": "0",
+      "name": "vuong",
+      "email": "vuong@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "b2f9",
+      "name": "asdavuongagag",
+      "email": "a@gmail.com",
+      "password": "asasdasd@@1141^"
+    },
+    {
+      "id": "24bd",
+      "name": "asdavuongagag",
+      "email": "a@gmail.com",
+      "password": "1123123asdfsad!!!"
+    },
+    {
+      "id": "23b8",
+      "name": "asdavuongagag",
+      "email": "a@gmail.com",
+      "password": "nakansda123#"
+    },
+    {
+      "id": "0cb1",
+      "name": "asdavuongagag",
+      "email": "vuongta2826@gmail.com",
+      "password": "asjdnasjdnsa123123#"
+    },
+    {
+      "id": "ef09",
+      "email": "vuongta2826@gmail.com",
+      "password": "asjdnasjdnsa123123#"
+    },
+    {
+      "id": "416e",
+      "email": "vuongta2826@gmail.com",
+      "password": "asjdnasjdnsa123123#"
+    },
+    {
+      "id": "654e",
+      "email": "vuongta2826@gmail.com",
+      "password": "asjdnasjdnsa123123#"
+    },
+    {
+      "id": "74f0",
+      "name": "aaaaaaaa",
+      "email": "vuongta2826@gmail.com",
+      "password": "aaaaaaaaaaaaaa#11"
+    },
+    {
+      "id": "d139",
+      "name": "vuong",
+      "email": "vuongta2826@gmail.com",
+      "password": "vuongg@1111"
+    },
+    {
+      "id": "0373",
+      "email": "vuongta2826@gmail.com",
+      "password": "vuongg@1111"
+    },
+    {
+      "id": "6fc7",
+      "email": "vuongta2826@gmail.com",
+      "password": "vuongg@1111"
+    },
+    {
+      "id": "2300",
+      "email": "vuongta2826@gmail.com",
+      "password": "vuongg@1111"
+    },
+    {
+      "id": "f9fa",
+      "email": "vuongta2826@gmail.com",
+      "password": "vuongg@1111"
+    },
+    {
+      "id": "2db6",
+      "name": "asdavuongagag",
+      "email": "vuongta2826@gmail.com",
+      "password": "asdasdasd123131#"
+    },
+    {
+      "id": "a497",
+      "name": "asdavuongagag",
+      "email": "vuongta2826@gmail.com",
+      "password": "asdasdsa1313#"
+    },
+    {
+      "id": "fa59",
+      "name": "asdavuongagag",
+      "email": "vuongta2826@gmail.com",
+      "password": "ấdsasdas12313121"
+    },
+    {
+      "id": "6236",
+      "name": "aaaa",
+      "email": "vuongta2826@gmail.com",
+      "password": "!!@!@adasd1313"
+    },
+    {
+      "id": "a2ab",
+      "name": "Ta Quoc Vuong",
+      "email": "vuongta2826@gmail.com",
+      "password": "12341@1231"
+    },
+    {
+      "id": "2f19",
+      "name": "Ta Quoc Vuong",
+      "email": "vuongta2826@gmail.com",
+      "password": "123716273612!@#!@nka"
+    }
+  ],
+  "login": [
+    {
+      "email": "user@example.com",
+      "password": "12345678",
+      "id": "5ed0"
+    },
+    {
+      "id": "f9fa",
+      "email": "vuongta2826@gmail.com",
+      "password": "vuongg@1111"
+    },
+    {
+      "id": "b5b0",
+      "email": "user@example.com",
+      "password": "12345678"
+    },
+    {
+      "id": "4923",
+      "email": "user@example.com",
+      "password": "12345678"
+    },
+    {
+      "id": "dd92",
+      "email": "vuong@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "b08b",
+      "email": "vuongta2826@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "d33f",
+      "email": "vuongta2826@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "bd37",
+      "email": "a@gmail.com",
+      "password": "asdasd"
+    }
+  ],
+  "Student": [
+    {
+      "id": "1",
+      "maSoSinhVien": "SV001",
+      "hoTen": "Nguyễn Văn A",
+      "ngaySinh": "2002-03-15",
+      "dienThoai": "0905123456",
+      "email": "nguyenvana@example.com",
+      "diaChi": " Quận 12, TP.HCM",
+      "lopHoc": "FPoly",
+      "monHoc": "Lập trình Web",
+      "diemCuoiKhoa": 8.5
+    },
+    {
+      "id": "2",
+      "maSoSinhVien": "SV002",
+      "hoTen": "Trần Thị B",
+      "ngaySinh": "2001-11-22",
+      "dienThoai": "0912345678",
+      "email": "tranthib@example.com",
+      "diaChi": " Quận 12, TP.HCM",
+      "lopHoc": "FPoly",
+      "monHoc": "famework 2",
+      "diemCuoiKhoa": 7.8
+    },
+    {
+      "id": "fe8c",
+      "maSoSinhVien": "Sv74",
+      "hoTen": "Ta quoc vuong",
+      "ngaySinh": "04/09/10012",
+      "dienThoai": "0193123",
+      "email": "vuongta@gmail.con",
+      "diaChi": "asdasd",
+      "lopHoc": "wd19303",
+      "monHoc": "FrameWork",
+      "diemCuoiKhoa": "81812"
+    }
+  ],
+  "FinalTest": [
+    {
+      "id": "1",
+      "name": "Nguyen Van A",
+      "phongBan": "Phong IT",
+      "gioiTinh": "Nam",
+      "ngayVaoLam": "2021-03-15",
+      "hinhAvatar": "https://imgs.search.brave.com/wMBG2OZHeut3Tf0VxO_ntTd_W0_WnqtOSMUCRO6IdVI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/by56bmV3cy52bi93/MTAwMC9VcGxvYWRl/ZC9uYXRtdHovMjAy/NF8xMV8yMS9ERF8x/MC5KUEc"
+    },
+    {
+      "id": "2",
+      "name": "Nguyen Van A",
+      "phongBan": "Phong IT",
+      "gioiTinh": "Nam",
+      "ngayVaoLam": "2021-03-15",
+      "hinhAvatar": "https://imgs.search.brave.com/wMBG2OZHeut3Tf0VxO_ntTd_W0_WnqtOSMUCRO6IdVI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/by56bmV3cy52bi93/MTAwMC9VcGxvYWRl/ZC9uYXRtdHovMjAy/NF8xMV8yMS9ERF8x/MC5KUEc"
+    },
+    {
+      "id": "3",
+      "name": "Nguyen Van A",
+      "phongBan": "Phong IT",
+      "gioiTinh": "Nam",
+      "ngayVaoLam": "2021-03-15",
+      "hinhAvatar": "https://imgs.search.brave.com/wMBG2OZHeut3Tf0VxO_ntTd_W0_WnqtOSMUCRO6IdVI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/by56bmV3cy52bi93/MTAwMC9VcGxvYWRl/ZC9uYXRtdHovMjAy/NF8xMV8yMS9ERF8x/MC5KUEc"
+    },
+    {
+      "id": "4",
+      "name": "Nguyen Van A",
+      "phongBan": "Phong IT",
+      "gioiTinh": "Nam",
+      "ngayVaoLam": "2021-03-15",
+      "hinhAvatar": "https://imgs.search.brave.com/wMBG2OZHeut3Tf0VxO_ntTd_W0_WnqtOSMUCRO6IdVI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9waG90/by56bmV3cy52bi93/MTAwMC9VcGxvYWRl/ZC9uYXRtdHovMjAy/NF8xMV8yMS9ERF8x/MC5KUEc"
+    }
+  ],
+  "PhuKien": [
+    {
+      "id": "BTU000300",
+      "size": "0",
+      "color": "2",
+      "name": "Kiey Earth Toke Bag",
+      "imageUrl": "https://imgs.search.brave.com/Al8_BBNpScw3VdtEScKI6f8PKv0G1g_6865mJS9Ghzs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2LzE5LzgxLzc0/LzM2MF9GXzYxOTgx/NzQ3N19LT1E2cmZI/UktMYThYNm1SeWtC/dTVHS1I1clQxRVVB/RC5qcGc",
+      "price": "180,000"
+    },
+    {
+      "id": "BTU000200",
+      "size": "0",
+      "color": "2",
+      "name": "Kiey Earth Toke Bag",
+      "imageUrl": "https://imgs.search.brave.com/Al8_BBNpScw3VdtEScKI6f8PKv0G1g_6865mJS9Ghzs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2LzE5LzgxLzc0/LzM2MF9GXzYxOTgx/NzQ3N19LT1E2cmZI/UktMYThYNm1SeWtC/dTVHS1I1clQxRVVB/RC5qcGc",
+      "price": "180,000"
+    },
+    {
+      "id": "BTU000500",
+      "size": "0",
+      "color": "2",
+      "name": "Kiey Earth Toke Bag",
+      "imageUrl": "https://imgs.search.brave.com/Al8_BBNpScw3VdtEScKI6f8PKv0G1g_6865mJS9Ghzs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2LzE5LzgxLzc0/LzM2MF9GXzYxOTgx/NzQ3N19LT1E2cmZI/UktMYThYNm1SeWtC/dTVHS1I1clQxRVVB/RC5qcGc",
+      "price": "180,000"
+    }
+  ],
+  "CategoryP": [
+    {
+      "id": "1",
+      "name": "Balo - Tui Xach"
+    },
+    {
+      "id": "2",
+      "name": "Ao thun"
+    },
+    {
+      "id": "3",
+      "name": "Tui Tole"
+    },   
+     {
+      "id": "4",
+      "name": "Tat - Vo"
+    },
+    {
+      "id": "5",
+      "name": "Non"
+    },
+    {
+      "id": "6",
+      "name": "Vi Nam"
+    },
+    {
+      "id": "7",
+      "name": "Lot De"
+    }
+  ]
+}
