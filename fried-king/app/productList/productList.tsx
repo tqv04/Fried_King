@@ -39,7 +39,7 @@ export default function ProductList({
   useEffect(() => {
     async function fetchProducts() {
       const res = await fetch(
-        `http://localhost:9000/products${
+        `https://be-friedking.onrender.com/products${
           category ? `?category=${category}` : ""
         }`
       );

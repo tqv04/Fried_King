@@ -11,7 +11,9 @@ function Post() {
   const [Posts, setPost] = useState<PostType[]>([]);
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("http://localhost:9000/products");
+      const response = await fetch(
+        "https://be-friedking.onrender.com/products"
+      );
       const data = await response.json();
       console.log("data:", data);
       setPost(data);

@@ -17,7 +17,7 @@ export default function Menu() {
   const [category, setCategory] = useState<Category[]>([]);
   useEffect(() => {
     async function fetchCategory() {
-      const res = await fetch("http://localhost:9000/category");
+      const res = await fetch("https://be-friedking.onrender.com/category");
       const data = await res.json();
       setCategory(data);
     }

@@ -34,7 +34,9 @@ const ProductDetail = () => {
   const fetcher: Fetcher<ProductType, string> = (url: string) =>
     fetch(url).then((res) => res.json());
   const { data, error, isLoading } = useSWR(
-    productId ? `http://localhost:9000/products/${productId}` : null,
+    productId
+      ? `https://be-friedking.onrender.com/products/${productId}`
+      : null,
     fetcher,
     {
       revalidateIfStale: false,

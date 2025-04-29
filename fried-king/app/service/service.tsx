@@ -19,7 +19,7 @@ export default function Service() {
 
   useEffect(() => {
     async function fetchService() {
-      const res = await fetch("http://localhost:9000/service");
+      const res = await fetch("https://be-friedking.onrender.com/service");
       const data = await res.json();
       setService(data);
     }
