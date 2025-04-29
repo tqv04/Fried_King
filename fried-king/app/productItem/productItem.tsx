@@ -30,6 +30,27 @@ export default function ProductItem({
   product,
   layout = "vertical",
 }: ProductItemsProps) {
+  const addToCart = (product: Product) => {
+    const cartData = localStorage.getItem("cart");
+    const currentCart: CartItem[] = cartData ? JSON.parse(cartData) : [];
+
+    const existingItem = currentCart.find((item) => item.id === product.id);
+
+    if (existingItem) {
+      existingItem.quantity += 1;
+    } else {
+      currentCart.push({
+        id: product.id,
+        name: product.name,
+        price: product.price,
+        imageUrl: product.imageUrl,
+        quantity: 1,
+      });
+    }
+
+    localStorage.setItem("cart", JSON.stringify(currentCart));
+    toast.success(`${product.name} đã được thêm vào giỏ hàng!`);
+  };
 
   return (
     <>
@@ -53,7 +74,7 @@ export default function ProductItem({
             <p className={`${styles.productPrice} `}>{product.price}</p>
             <Button
               className={`${styles.productButton} `}
-
+              onClick={() => addToCart(product)}
             >
               Thêm
             </Button>

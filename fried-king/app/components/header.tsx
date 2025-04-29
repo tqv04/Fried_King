@@ -76,11 +76,13 @@ export default function Header() {
                 className="text-light"
                 style={{ fontSize: "16px" }}
               />
-              <FontAwesomeIcon
-                icon={faShoppingBag}
-                className="text-light me-2"
-                style={{ fontSize: "16px" }}
-              />
+              <Link href="/cart">
+                <FontAwesomeIcon
+                  icon={faShoppingBag}
+                  className="text-light me-2"
+                  style={{ fontSize: "16px" }}
+                />
+              </Link>
             </Col>
           </Row>
         </Container>
